@@ -43,7 +43,7 @@ const StartPage = () => {
       <Header></Header>
       <div className="main-content">
         <div className="fade-in" style={{ marginBottom: "128px" }} id="home">
-          <h1>Hejsan och välkommen till min hemsida!</h1>
+          <h1>Hej och välkommen till min lilla hemsida!</h1>
           <p>
             Mitt namn är David Blomberg, och det är roligt att du har hittat
             hit. Den här sidan fungerar främst som en slags CV för mig, men du
