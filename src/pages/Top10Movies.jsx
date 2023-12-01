@@ -14,6 +14,8 @@ import ToyStoryCover from "../images/movies/toystory.jpg";
 import AmelieCover from "../images/movies/amelie.jpg";
 import SuperbadCover from "../images/movies/superbad.jpg";
 import FantasticMrFoxCover from "../images/movies/mrfox.jpg";
+import { Link } from "react-router-dom";
+
 
 const Top10Movies = () => {
   const data = require("../jsonFiles/movies.json");
@@ -273,13 +275,13 @@ const Top10Movies = () => {
       </div>
       <Row className="mb-5 text-center">
         <Col md={4}>
-          <a href="/top-albums">Mina top 10 album.</a>
+          <Link to="/top-albums">Mina top 10 album.</Link>
         </Col>
         <Col md={4}>
-          <a href="/top-games">Mina top 10 TV-spel.</a>
+          <Link to="/top-games">Mina top 10 TV-spel.</Link>
         </Col>
         <Col md={4}>
-          <a href="/top-shows">Mina top 10 TV-serier.</a>
+          <Link to="/top-shows">Mina top 10 TV-serier.</Link>
         </Col>
       </Row>
       <Footer />

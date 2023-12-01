@@ -14,6 +14,8 @@ import IsThisItCover from "../images/albums/isthisit.jpg";
 import { returnListOfStrings, renderDescription } from "../functions";
 import Footer from "../components/Footer";
 import Top10Header from "../components/Top10Header";
+import { Link } from "react-router-dom";
+
 
 const Top10Albums = () => {
   const data = require("../jsonFiles/albums.json");
@@ -222,13 +224,13 @@ const Top10Albums = () => {
       </div>
       <Row className="mb-5 text-center">
         <Col md={4}>
-          <a href="/top-movies">Mina top 10 filmer.</a>
+          <Link to="/top-movies">Mina top 10 filmer.</Link>
         </Col>
         <Col md={4}>
-          <a href="/top-games">Mina top 10 TV-spel.</a>
+          <Link to="/top-games">Mina top 10 TV-spel.</Link>
         </Col>
         <Col md={4}>
-          <a href="/top-shows">Mina top 10 TV-serier.</a>
+          <Link to="/top-shows">Mina top 10 TV-serier.</Link>
         </Col>
       </Row>
       <Footer />

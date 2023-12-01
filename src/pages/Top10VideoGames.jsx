@@ -14,6 +14,8 @@ import Portal2Cover from "../images/videogames/portal2.jpg";
 import Halo3Cover from "../images/videogames/halo3.JPG";
 import WarCraft3Cover from "../images/videogames/wc3.jpg";
 import DivinityOriginalSin2Cover from "../images/videogames/dos2.jpg";
+import { Link } from "react-router-dom";
+
 
 const Top10VideoGames = () => {
   const data = require("../jsonFiles/games.json");
@@ -260,13 +262,13 @@ const Top10VideoGames = () => {
       </div>
       <Row className="mb-5 text-center">
         <Col md={4}>
-          <a href="/top-albums">Mina top 10 album.</a>
+          <Link to="/top-albums">Mina top 10 album.</Link>
         </Col>
         <Col md={4}>
           <a href="/top-shows">Mina top 10 serier.</a>
         </Col>
         <Col md={4}>
-          <a href="/top-movies">Mina top 10 filmer.</a>
+          <Link to="/top-movies">Mina top 10 filmer.</Link>
         </Col>
       </Row>
       <Footer />

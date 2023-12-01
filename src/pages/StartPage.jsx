@@ -7,6 +7,7 @@ import profilephoto from "../images/david_blomberg_1.jpg";
 import barphoto from "../images/david_blomberg_2.jpg";
 import profilephoto2 from "../images/david_blomberg_5.jpg";
 import Image from "react-bootstrap/Image";
+import { Link } from "react-router-dom";
 
 const StartPage = () => {
   useEffect(() => {
@@ -270,16 +271,16 @@ const StartPage = () => {
           </p>
           <Row>
             <Col>
-              <a href="/top-albums">Mina top 10 album.</a>
+              <Link to="/top-albums">Mina top 10 album.</Link>
             </Col>
             <Col>
-              <a href="/top-movies">Mina top 10 filmer.</a>
+              <Link to="/top-movies">Mina top 10 filmer.</Link>
             </Col>
             <Col>
-              <a href="/top-games">Mina top 10 TV-spel.</a>
+              <Link to="/top-games">Mina top 10 TV-spel.</Link>
             </Col>
             <Col>
-              <a href="/top-shows">Mina top 10 TV-serier.</a>
+              <Link to="/top-shows">Mina top 10 TV-serier.</Link>
             </Col>
           </Row>
         </div>
