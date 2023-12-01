@@ -1,0 +1,94 @@
+{
+  "value": [
+    {
+      "title": "The Sopranos",
+      "year": "1999-2007",
+      "seasons": "6",
+      "genre": ["Crime", "Drama"],
+      "actors": ["James Gandolfini", "Lorraine Bracco", "Michael Imperioli"],
+      "description": "Finns så många filmer och serier som romantiserar den italienska maffian alldeles för mycket. 'The Sopranos' gör inte detta utan försöker visa en mer realistisk sida av maffian som man inte alltid får se. Men den absolut starkaste sidan med serien är hur minnesvärda och älskvärda alla karaktärer är trots sina uppenbara brister som människor.",
+      "link": "https://www.youtube.com/watch?v=rerM3wbdnYs"
+    },
+    {
+      "title": "The Wire",
+      "year": "2002-2008",
+      "seasons": "5",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "actors": ["Dominic West", "Lance Reddick", "Wendell Pierce"],
+      "description": "Lite av en klyscha att säga att 'The Wire' är en av världens bästa serier, men jag kan inte låta bli. Så många minnesvärda karaktärer, scener, repliker och introlåtar. Serien visar en mörk, brutal och trovärdig bild av Baltimore som får dig att känna som att du kollar på en dokumentär emellanåt.",
+      "link": "https://www.youtube.com/watch?v=JDpvkwBBu6U"
+    },
+    {
+      "title": "The Bear",
+      "year": "2022-",
+      "seasons": "2",
+      "genre": ["Comedy", "Drama"],
+      "actors": ["Jeremy Allen White", "Ebon Moss-Bachrach", "Ayo Edebiri"],
+      "description": "Bästa mediet om restaurangbranschen i modern tid? Otroligt rolig, otroligt jobbig och stressande att se på stundtals, och 'Jeremy Allen White' är felfri som huvudroll. Julavsnittet i säsong två kan vara det bästa och jobbigaste avsnittet jag sett någonsin.",
+      "link": "https://www.youtube.com/watch?v=1K3z62yoiOA"
+    },
+    {
+      "title": "It's Always Sunny in Philadelphia",
+      "year": "2005",
+      "seasons": "18",
+      "genre": ["Comedy"],
+      "actors": ["Charlie Day", "Danny DeVito", "Rob McElhenney"],
+      "description": "Vanligtvis brukar karaktärer ha styrkor som väger upp för deras komiska brister. Här så finns det inget av det. Alla huvudkaraktärer är dåliga människor utan några styrkor som väger upp för detta. Detta leder till en urspårad och absolut hysterisk serie som får en att skratta samtidigt som att man skäms över att man skrattar.",
+      "link": "https://www.youtube.com/watch?v=37VebUxrbKI"
+    },
+    {
+      "title": "Breaking Bad",
+      "year": "2008-2013",
+      "seasons": "5",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "actors": ["Bryan Cranston", "Aaron Paul", "Bob Odenkirk"],
+      "description": "Med största sannolikhet har du hört talas om Breaking Bad. Det är även väldigt troligt att du har sett den också. Breaking Bad tog världen med storm och är fortfarande en av världens mest sedda TV-serier, och med all rätt. Så många bra karaktärer spelade av så många bra skådespelare. Bryan Cranston gör förmodligen sitt livs prestation, Aaron Paul slog igenom med sin roll som Jesse Pinkman. Finns så många otroligt minnesvärda scener med citat som jag och många andra kan fortfarande minnas.",
+      "link": "https://www.youtube.com/watch?v=K8xcPhsaris"
+    },
+    {
+      "title": "BoJack Horseman",
+      "year": "2014-2020",
+      "seasons": "6",
+      "genre": ["Animation", "Comedy", "Drama"],
+      "actors": ["Will Arnett", "Amy Sedaris", "Alison Brie"],
+      "description": "En serie som vid första anblick ser ut som en standard, färgglad och lättsam animerad serie med glimtar av mörka och seriösa ämnen. Men ju mer du ser, desto mer inser du att det är en ledsam och seriös serie med inslag av humor så att man ska orka med allt. Depression, missbruk, förlust – ämnen som alla tas upp genom seriens gång och som alla är skrivna mästerligt. BoJack kommer få dig att skratta, att gråta och att förändra dig som en person (hur lökigt det än låter).",
+      "link": "https://www.youtube.com/watch?v=rQvIR1oL1vE"
+    },
+    {
+      "title": "Avatar: The Last Airbender",
+      "year": "2005-2008",
+      "seasons": "3",
+      "genre": ["Animation", "Action", "Adventure"],
+      "actors": ["Dee Bradley Baker", "Zach Tyler Eisen", "Mae Whitman"],
+      "description": "Jag var runt 13 år när jag såg 'Avatar: The Last Airbender' för första gången i sin helhet, och sen dess har jag nog sett om den en handfull gånger. Även om det är en serie vars målgrupp är yngre tonåringar, så är det en serie som alla kan se och njuta av. Stilen är cool, fightscenerna är coola, bra humör trots en del karaktärer som är lite väl simpla och lite väl många scener som får en att snyfta.",
+      "link": "https://www.youtube.com/watch?v=kpCjwIwdu0U"
+    },
+    {
+      "title": "True Detective",
+      "year": "2014-",
+      "seasons": "3",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "actors": ["Matthew McConaughey", "Rachel McAdams", "Mahershala Ali"],
+      "description": "Jag var lite osäker på om jag skulle ha med 'True Detective' på den här listan, då varje säsong är som en unik serie och är av olika kvalitet. Men den första säsongen som verkligen fick True Detective att slå igenom är så pass bra att jag bara var tvungen att ha med den. Den första säsongen är nästintill felfri enligt mig. Den är så otroligt spännande, mystisk, delvis obehaglig, och duon Matthew McConaughey och Woody Harrelson har sån bra kemi. 'If the only thing keeping a person decent is the expectation of divine reward then, brother, that person is a piece of s***.'",
+      "link": "https://www.youtube.com/watch?v=0-kvkESiOXo"
+    },
+    {
+      "title": "Seinfeld",
+      "year": "1989-1998",
+      "seasons": "9",
+      "genre": ["Comedy"],
+      "actors": ["Jerry Seinfeld", "Julia Louis-Dreyfus", "Jason Alexander"],
+      "description": "'What's the deal with airplane peanuts?' De flesta sitcoms har enligt mig åldrats väldigt dåligt. Själva stilen med ett skämt uppföljt av ett väldigt högt 'laugh track' har förstörts av moderna komediserier som 'The Office' och 'It's Always Sunny in Philadelphia' som inte förlitar sig på just de skratten för att förmedla att något är roligt. Många äldre sitcoms humor funkar inte riktigt längre, då vi som samhälle har utvecklats, eller att själva skämtet var en referens till något som var aktuellt just då. Seinfeld har dessa nämnda utdaterade laugh tracks, men trots detta så känns inte resten av serien utdaterad. Varför? Jo, för att Larry David och Jerry Seinfeld gjorde ett så pass bra jobb med att skapa roliga och relaterbara karaktärer som hamnar i verkliga och relaterbara situationer som inte påverkas av tiden. Seinfeld hade sin debut för över 30 år sen och den håller fortfarande som en av världens roligaste serier.",
+      "link": "https://www.youtube.com/watch?v=CizwH_T7pjg"
+    },
+    {
+      "title": "Freaks and Geeks",
+      "year": "1999-2000",
+      "seasons": "1",
+      "genre": ["Comedy", "Drama"],
+      "actors": ["Linda Cardellini", "James Franco", "Seth Rogen"],
+      "description": "Världens bästa tonårsserie som jag ångrar väldigt mycket att jag inte såg när jag själv var tonåring. 'Freaks and Geeks', som när den först sändes floppade, därav endast en säsong, blev en kultklassiker många år senare. Men trots sin flopp så blev den språngbrädan för många skådespelare som är världskändisar nu (Seth Rogen, James Franco, Linda Cardellini, Jason Segel, Busy Philipps m.m.). Rolig, mysig, nostalgisk och perfekt mängd av cheesy dialog. En bättre version av 'The Breakfast Club'.",
+      "link": "https://www.youtube.com/watch?v=RHTL4vTg2O0"
+    }
+  ]
+}

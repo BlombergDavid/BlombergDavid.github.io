@@ -1,0 +1,94 @@
+{
+  "value": [
+    {
+      "title": "Madvillainy",
+      "artist": "Madvillain",
+      "year": "2004",
+      "genre": ["Alternative hip hop", "Jazz rap"],
+      "description": "Legendariskt rapalbum från duon bestående av rapparen MF DOOM och producenten Madlib. Med produktion bestående av olika samples som loopas om och om igen till rap av en av världens mest skickliga rappare. Låter pretentiöst, men verkligen ett 10/10-album som jag tycker alla hip-hop- och rapfans borde lyssna igenom minst en gång. Din favoritrappares favoritrappare.",
+      "bestSongs": ["Accordion", "Figaro", "Fancy Clown"],
+      "link": "https://open.spotify.com/album/19bQiwEKhXUBJWY6oV3KZk?si=6fFDuSEHR7uLiPUqtg3gAg"
+    },
+    {
+      "title": "MY WOMAN",
+      "artist": "Angel Olsen",
+      "year": "2016",
+      "genre": ["Alternative indie", "Indie rock"],
+      "description": "Tredje skivan från den amerikanska singer-songwritern Angel Olsen är enligt mig den klart bästa skivan i hennes diskografi. Fantastisk röst, hjärtskärande texter och hennes mest rockfyllda och catchy låtar. Den avslutande låten 'Pops' är en sorglig och fin avslutning på ett fantastiskt album.",
+      "bestSongs": ["Shut up kiss me", "Give it up", "Pops"],
+      "link": "https://open.spotify.com/album/3CHcldbsbrBOOlw8cnLpNm?si=USEXa0S6SFuHILQ7ll0Krw"
+    },
+    {
+      "title": "From Mars to Sirius",
+      "artist": "Gojira",
+      "year": "2005",
+      "genre": ["Technical death metal", "Progressive metal", "Groove metal"],
+      "description": "TUnga trummor, skoningslösa riffs samt arga skrik från Joe Duplantier. Albumet är väldigt aggressivt och intensivt att lyssna på, men kvaliteten av alla låtar samt de lugnare och mer melodiska låtarna gör att det aldrig blir för mycket. Gillar du metal så kommer du gilla den här skivan.",
+      "bestSongs": ["Where dragons dwell", "Flying whales", "Backbone"],
+      "link": "https://open.spotify.com/album/0AvFF0HlQYvYKHaRURGZBs?si=KESVU0BfTiG58YNfh5PJuA"
+    },
+    {
+      "title": "Jane Doe",
+      "artist": "Converge",
+      "year": "2001",
+      "genre": ["Metalcore", "Hardcorepunk", "Post-hardcore"],
+      "description": "Hör man vad sångaren sjunger? Nej. Låter sångaren som en banshee? Ja. Kan det bli för mycket emellanåt? Ja. Älskar jag albumet? Definitivt. Jag vet inte varför, men 'Jane Doe' är ett album man måste uppleva. Väldigt beroendeframkallande och förvånansvärt romantiska låttexter (som man måste söka upp online). Plus i kanten att albumet har det bästa albumomslaget någonsin.",
+      "bestSongs": ["Concubine", "Fault and Fracture", "Heaven in her arms"],
+      "link": "https://open.spotify.com/album/2gtM4m6sglJDrX3toJWZO6?si=7vZPRYffSaGi4FZKv75X5A"
+    },
+    {
+      "title": "Atrocity Exhibition",
+      "artist": "Danny Brown",
+      "year": "2016",
+      "genre": ["Experimental Hip Hop", "Progressive rap"],
+      "description": "Danny Brown är en av mina favoritartister och personer i allmänhet. Hans karisma, humor och öppenhet gör det svårt att inte tycka om honom. Hans gälla röst och skratt kan vara för mycket för många (mig inkluderad första gången jag hörde honom), 'It's an acquired taste' kan vi säga. Albumet är mörkt, produktionen är banbrytande och 'Really Doe' är en av de tyngsta låtarna någonsin, där refrängen av Kendrick Lamar sticker ut.",
+      "bestSongs": ["When it rain", "Really Doe", "Pneumonia"],
+      "link": "https://open.spotify.com/album/3A1vnUJDPz0xYMful9pO4I?si=GMJaEUKoQD-pMrHTEzZxPw"
+    },
+    {
+      "title": "OK Computer",
+      "artist": "Radiohead",
+      "year": "1997",
+      "genre": ["Art rock", "Alternative Rock"],
+      "description": "Kanske lite basic att välja 'OK Computer' som bästa albumet från Radiohead då det är det kändaste samt det mest lättlyssnade i deras diskografi. Även om 'In Rainbows' är mer experimentellt och man kan diskutera om topparna där är högre än topparna här, så är detta ett felfritt och banbrytande rockalbum vars stil kopieras över 25 år senare.",
+      "bestSongs": ["No surprises", "Let down", "Exit music (For a film)"],
+      "link": "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE?si=wMcuX4cxSFKz0LoQS7-RPw"
+    },
+    {
+      "title": "Enter the Wu-Tang (36 Chambers)",
+      "artist": "Wu-Tang Clan",
+      "year": "1993",
+      "genre": ["Hardcore hip hop", "East coast rap"],
+      "description": "'Enter the Wu-Tang (36 Chambers)' är skivan som fick mig att gå från att uppskatta rap och hip-hop till att verkligen älska det. Allt började med att jag hörde 'Protect Ya Neck', sen började jag lyssna på fler låtar från skivan och sen var jag fast. 30 år senare och fortfarande en av världens bästa om inte världens bästa rapalbum.",
+      "bestSongs": ["Bring da ruckus", "Da mystery of chessboxin'", "Protect ya neck"],
+      "link": "https://open.spotify.com/album/3tQd5mwBtVyxCoEo4htGAV?si=sAQLNd2MS3uEm1wDZNjvog"
+    },
+    {
+      "title": "Hybrid Theory",
+      "artist": "Linkin Park",
+      "year": "2000",
+      "genre": ["Nu metal"],
+      "description": "Visst, nu-metal som en genre har inte åldrats särskilt bra. Albumet är heller inte felfritt och vissa av låttexterna är lite väl edgy. Men Linkin Park och specifikt detta albumet är min barndom. Jag minns tydligt första gången jag hörde 'In the End' och hur cool jag tyckte Mike Shinoda var i musikvideon.",
+      "bestSongs": ["In the end", "Crawling", "A place for my head"],
+      "link": "https://open.spotify.com/album/6PFPjumGRpZnBzqnDci6qJ?si=C_tumOKlRt-9MyuPTKmDZQ"
+    },
+    {
+      "title": "Piñata",
+      "artist": "Freddie Gibbs",
+      "year": "2014",
+      "genre": ["Hip hop", "Gangsta rap", "Jazz rap"],
+      "description": "Jag skulle våga påstå att Freddie Gibbs är utan tvekan en av världens bästa rappare. Hans flow, röst och stil är alla 10/10. Hans stora svaghet är produktionen, eller rättare sagt val av produktion. Tyvärr händer det alltför ofta att produktionen på Freddie Gibbs-album är alldeles för simpel, enformig eller helt enkelt inte komplementerar hans rappande. Men i detta fallet så är den legendariska producenten 'Madlib' bakom produktionen, vilket resulterar i ett album fyllt med hård 'Gangsta rap' till soulfylld, jazzig produktion.",
+      "bestSongs": ["Thuggin'", "Piñata", "Shitsville"],
+      "link": "https://open.spotify.com/album/43uErencdmuTRFZPG3zXL1?si=pTnoQCEWRiagOpbG9_Zelg"
+    },
+    {
+      "title": "Is This It",
+      "artist": "The Strokes",
+      "year": "2001",
+      "genre": ["Indie Rock", "Garage Rock"],
+      "description": "Det är som att hitta en vintage läderjacka i en second-hand-butik; den passar inte, du har inte självförtroendet för den, men ändå så älskar du den. Så känns det att lyssna på den här skivan. Bästa indie-rockskivan någonsin.",
+      "bestSongs": ["Soma", "Someday", "Hard to Explain"],
+      "link": "https://open.spotify.com/album/2yNaksHgeMQM9Quse463b5?si=BtEHHaHAQ7eteyxbrBC1Ww"
+    }
+  ]
+}

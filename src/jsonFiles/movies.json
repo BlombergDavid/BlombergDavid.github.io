@@ -1,0 +1,109 @@
+{
+  "value": [
+    {
+      "title": "Pulp Fiction",
+      "year": "1994",
+      "director": "Quentin Tarantino",
+      "writer": ["Quentin Tarantino", "Roger Avary"],
+      "genre": ["Crime", "Drama"],
+      "actors": [
+        "John Travolta",
+        "Uma Thurman",
+        "Samuel L. Jackson",
+        "Bruce Willis"
+      ],
+      "description": "Tarantino ligger bakom många av de bästa filmerna som har släppts under de senaste 30 åren, och enligt mig är Pulp Fiction hans bästa! Stilen, humorn, manuset, musiken, hur de olika historierna sammanvävs, Uma Thurmans och John Travoltas dansscen – allt detta gör Pulp Fiction till en av världens bästa filmer som man kan se om, och om, och om igen utan att tröttna.",
+      "link": "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
+    },
+    {
+      "title": "The Nightmare Before Christmas",
+      "year": "1993",
+      "director": "Henry Selick",
+      "writer": ["Tim Burton", "Michael McDowell", "Caroline Thompson"],
+      "genre": ["Animation", "Fantasy"],
+      "actors": ["Danny Elfman", "Chris Sarandon", "Catherine O'Hara"],
+      "description": "Jag är en sucker för snyggt animerade filmer med en unik stil, och 'The Nightmare Before Christmas' faller verkligen in i den kategorin. Musiken är minnesvärd, dialogen är fylld med humor, och kärlekshistorien mellan Jack Skellington och Sally är fin. Det enda som möjligtvis kan sänka filmen är den ständiga diskussionen om det är en julfilm eller en halloweenfilm.",
+      "link": "https://www.youtube.com/watch?v=wr6N_hZyBCk"
+    },
+    {
+      "title": "In Bruges",
+      "year": "2008",
+      "director": "Martin McDonagh",
+      "writer": ["Martin McDonagh"],
+      "genre": ["Comedy", "Crime", "Drama"],
+      "actors": ["Colin Farell", "Brendan Gleeson", "Ciarán Hinds"],
+      "description": "Två lönnmördare med väldigt olika personligheter väntar i den vackra belgiska staden Brügge på deras nästa uppdrag. Det är huvudsakligen filmens handling. Det händer inte särskilt mycket i filmen, men det som bär filmen är det otroligt roliga manuset. Scenen där den amerikanska familjen vill gå upp till toppen av tornet får mig alltid. Colin Farrell med sina nervösa ögonbryn var gjord för den här filmen.",
+      "link": "https://www.youtube.com/watch?v=p-gG2qo_l_A"
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "year": "1991",
+      "director": "Jonathan Demme",
+      "writer": ["Thomas Harris", "Ted Tally"],
+      "genre": ["Crime", "Drama", "Thriller"],
+      "actors": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
+      "description": "En kultklassiker av en anledning. Anthony Hopkins är ikonisk, filmen är spännande, en perfekt thriller. 'It rubs the lotion on its skin or else it gets the hose again.'",
+      "link": "https://www.youtube.com/watch?v=W6Mm8Sbe__o"
+    },
+    {
+      "title": "Parasite",
+      "year": "2019",
+      "director": "Bong Joon Ho",
+      "writer": ["Bong Joon Ho", "Han Jin-won"],
+      "genre": ["Drama", "Thriller"],
+      "actors": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
+      "description": "Spännande, rolig, obehaglig, fick mig att hela tiden ställa frågan 'vad kommer hända härnäst?'.",
+      "link": "https://www.youtube.com/watch?v=SEUXfv87Wpk"
+    },
+    {
+      "title": "Spirited Away",
+      "year": "2001",
+      "director": "Hayao Miyazaki",
+      "writer": ["Hayao Miyazaki"],
+      "genre": ["Animation", "Adventure"],
+      "actors": ["Miyu Irino", "Rumi Hiiragi", "Mari Natsuki"],
+      "description": "Såg den här filmen för första gången när jag var 7 år gammal, sittandes i baksätet med min syster på väg mot Kroatien. Jag förstod ingenting, öppningsscenen skrämde mig, och jag var mestadels inte imponerad. Och jag är så glad att jag gav filmen en ny chans. Otroligt vackert animerad, sinnessjuka varelser som man inte kan förstå hur man kan komma på, och allmänt en väldigt fin historia. Även om man har svårt för anime så är detta en film som alla borde se.",
+      "link": "https://www.youtube.com/watch?v=ByXuk9QqQkk"
+    },
+    {
+      "title": "Toy Story",
+      "year": "1995",
+      "director": "John Lasseter",
+      "writer": ["John Lasseter", "Pete Docter", "Andrew Stanton"],
+      "genre": ["Animation", "Adventure", "Comedy"],
+      "actors": ["Tom Hanks", "Tim Allen", "Don Rickles"],
+      "description": "Jag har inte en aning om hur många gånger jag har sett den här filmen, men kan med säkerhet säga att jag har sett den minst 200 gånger. Varje dag som liten bad jag mina föräldrar att sätta igång 'Onne', vilket var vad jag kallade Leksaks-sheriffen 'Woody' för. Underbar barnfilm med alldeles för mycket humor som jag inte kunde uppskatta som liten och en film som jag kommer tvinga mina systerbarn att kolla på när de blir äldre.",
+      "link": "https://www.youtube.com/watch?v=v-PjgYDrg70"
+    },
+    {
+      "title": "Amélie",
+      "year": "2001",
+      "director": "Jean-Pierre Jeunet",
+      "writer": ["Guillaume Laurant", "Jean-Pierre Jeunet"],
+      "genre": ["Comedy", "Romance"],
+      "actors": ["Audrey Tautou", "Mathieu Kassovitz", "Rufus"],
+      "description": "Otroligt fin, rolig och romantisk film om Amélie och hennes kärleksliv. 'Audrey Tautou' är så vacker och charmig, och det är omöjligt att inte bli kär i hennes underliga karaktär.",
+      "link": "https://www.youtube.com/watch?v=HUECWi5pX7o"
+    },
+    {
+      "title": "Superbad",
+      "year": "2007",
+      "director": "Greg Mottola",
+      "writer": ["Seth Rogen", "Evan Goldberg"],
+      "genre": ["Comedy"],
+      "actors": ["Michael Cera", "Jonah Hill", "Christopher Mintz-Plasse"],
+      "description": "En riktig 'dude-bro' film, och jag menar det på bästa möjliga sätt. Man såg den som liten varje gång man hängde med killarna, man såg den varje gång den gick på kanal 6, och den kommer fortfarande igång ibland på morgonen efter en lång kväll. Och fortfarande en av världens roligaste filmer! Världens bästa 'bakisfilm'?",
+      "link": "https://www.youtube.com/watch?v=4eaZ_48ZYog"
+    },
+    {
+      "title": "Fantastic Mr. Fox",
+      "year": "2009",
+      "director": "Wes Anderson",
+      "writer": ["Roald Dahl", "Wes Anderson", "Noah Baumbach"],
+      "genre": ["Animation", "Adventure", "Comedy"],
+      "actors": ["George Clooney", "Meryl Streep", "Bill Murray"],
+      "description": "Är i allmänhet inte ett fan av Wes Andersons filmer utan tycker ofta de är lite väl pretentiösa. Men 'Fantastic Mr. Fox' är inte pretentiös utan bara en grym film. Är som sagt svag för fint animerade filmer, men var tvungen att inkludera denna. Det enda negativa är att jag önskar att den vore längre. En timme och 27 minuter känns alldeles för kort för en sån här bra film.",
+      "link": "https://www.youtube.com/watch?v=n2igjYFojUo"
+    }
+  ]
+}

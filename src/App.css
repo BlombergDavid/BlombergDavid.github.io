@@ -1,38 +1,88 @@
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: url("./images/pexels-photo-2387793.jpeg") center/cover fixed
+    no-repeat;
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main-content {
+  font-family: "Arial", sans-serif; /* Specify a fallback font */
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1rem;
+}
+
+.main-page-image {
+  width: 100%;
+  height: auto;
+  max-width: 550px;
+  min-width: 400px;
+  max-height: 800px;
+  min-height: 550px;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens with a width of 768 pixels or less */
+  .main-content {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Adjust padding for smaller screens */
+@media screen and (max-width: 992px) {
+  .main-content {
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main-page-image {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: auto;
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+  .main-page-image {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: auto;
+    min-height: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-page-image {
+    max-width: 300px; /* Set your desired max width */
+    min-width: 200px; /* Set your desired min width */
+    max-height: 400px; /* Set your desired max height */
+    min-height: 250px; /* Set your desired min height */
+    margin-bottom: 16px;
+    margin-top: 16px;
   }
 }
