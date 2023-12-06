@@ -1,0 +1,84 @@
+.post-container {
+  width: 85%;
+  min-height: 100vh;
+  margin: 0 auto; /* This centers the div horizontally */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 32px;
+}
+
+.post-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  font-weight: 800;
+}
+
+.post-intro-section {
+  font-size: 1.8rem;
+  color: #555;
+  font-weight: 600;
+}
+
+.post-main-text {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.post-time-of-publishing {
+  font-size: 0.9rem;
+  color: #777;
+  text-align: right;
+}
+
+.post-author-name {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .post-title {
+    font-size: 2.5rem;
+  }
+
+  .post-intro-section {
+    font-size: 1.5rem;
+  }
+
+  .post-main-text {
+    font-size: 1.2rem;
+  }
+
+  .post-time-of-publishing {
+    font-size: 0.8rem;
+  }
+
+  .post-author-name {
+    font-size: 1rem;
+  }
+}
+
+/* Media Queries for Very Small Screens (e.g., Mobile) */
+@media screen and (max-width: 480px) {
+  .post-title {
+    font-size: 2rem;
+  }
+
+  .post-intro-section {
+    font-size: 1.2rem;
+  }
+
+  .post-main-text {
+    font-size: 1rem;
+  }
+
+  .post-time-of-publishing {
+    font-size: 0.7rem;
+  }
+
+  .post-author-name {
+    font-size: 1rem;
+  }
+}
