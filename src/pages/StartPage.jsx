@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 
 const StartPage = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
     const handleScroll = () => {
       const elements = document.querySelectorAll(".fade-in");
 
@@ -271,16 +270,19 @@ const StartPage = () => {
           </p>
           <Row>
             <Col>
-              <Link to="/top-albums">Mina top 10 album.</Link>
+              <Link to="/interests/top-albums">Mina top 10 album.</Link>
             </Col>
             <Col>
-              <Link to="/top-movies">Mina top 10 filmer.</Link>
+              <Link to="/interests/top-movies">Mina top 10 filmer.</Link>
             </Col>
             <Col>
-              <Link to="/top-games">Mina top 10 TV-spel.</Link>
+              <Link to="/interests/top-games">Mina top 10 TV-spel.</Link>
             </Col>
             <Col>
-              <Link to="/top-shows">Mina top 10 TV-serier.</Link>
+              <Link to="/interests/top-shows">Mina top 10 TV-serier.</Link>
+            </Col>
+            <Col>
+              <Link to="/interests/posts">Mina inlägg.</Link>
             </Col>
           </Row>
         </div>

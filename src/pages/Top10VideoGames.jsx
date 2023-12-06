@@ -17,10 +17,11 @@ import DivinityOriginalSin2Cover from "../images/videogames/dos2.jpg";
 import { Link } from "react-router-dom";
 
 
+
+
 const Top10VideoGames = () => {
   const data = require("../jsonFiles/games.json");
   useEffect(() => {
-    window.scrollTo(0, 0);
     const handleScroll = () => {
       const elements = document.querySelectorAll(".item-entry");
 
@@ -90,7 +91,7 @@ const Top10VideoGames = () => {
 
   return (
     <>
-      <Top10Header />
+      <Top10Header marginBottom="mb-5" />
       <div className="pt-3 text-color movie-section">
         <h1 className="top-10-title">Mina top 10 TV-spel</h1>
         <Row className="item-entry">
@@ -262,13 +263,13 @@ const Top10VideoGames = () => {
       </div>
       <Row className="mb-5 text-center">
         <Col md={4}>
-          <Link to="/top-albums">Mina top 10 album.</Link>
+          <Link to="/interests/top-albums">Mina top 10 album.</Link>
         </Col>
         <Col md={4}>
-          <a href="/top-shows">Mina top 10 serier.</a>
+          <a href="/interests/top-shows">Mina top 10 serier.</a>
         </Col>
         <Col md={4}>
-          <Link to="/top-movies">Mina top 10 filmer.</Link>
+          <Link to="/interests/top-movies">Mina top 10 filmer.</Link>
         </Col>
       </Row>
       <Footer />

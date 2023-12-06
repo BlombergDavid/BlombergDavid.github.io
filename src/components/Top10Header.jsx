@@ -2,11 +2,11 @@ import React from "react";
 import { Navbar, Container, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
-const Top10Header = () => {
+const Top10Header = (props) => {
   const navigate = useNavigate();
 
   return (
-    <Navbar className="mb-5 dark-theme" sticky="top" variant="dark">
+    <Navbar className={props.marginBottom + " dark-theme"} sticky="top" variant="dark">
       <Container>
         <Navbar.Brand
           title="Hem"

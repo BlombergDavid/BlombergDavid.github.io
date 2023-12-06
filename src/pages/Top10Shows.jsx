@@ -17,10 +17,11 @@ import FreaksAndGeeksCover from "../images/shows/freaksandgeeks.jpg";
 import { Link } from "react-router-dom";
 
 
+
+
 const Top10Shows = () => {
   const data = require("../jsonFiles/shows.json");
   useEffect(() => {
-    window.scrollTo(0, 0);
     const handleScroll = () => {
       const elements = document.querySelectorAll(".item-entry");
 
@@ -94,7 +95,7 @@ const Top10Shows = () => {
 
   return (
     <>
-      <Top10Header />
+      <Top10Header marginBottom="mb-5" />
       <div className="pt-3 text-color movie-section">
         <h1 className="top-10-title">Mina top 10 serier</h1>
         <Row className="item-entry">
@@ -271,13 +272,13 @@ const Top10Shows = () => {
       </div>
       <Row className="mb-5 text-center">
         <Col md={4}>
-          <Link to="/top-albums">Mina top 10 album.</Link>
+          <Link to="/interests/top-albums">Mina top 10 album.</Link>
         </Col>
         <Col md={4}>
-          <Link to="/top-games">Mina top 10 TV-spel.</Link>
+          <Link to="/interests/top-games">Mina top 10 TV-spel.</Link>
         </Col>
         <Col md={4}>
-          <Link to="/top-movies">Mina top 10 filmer.</Link>
+          <Link to="/interests/top-movies">Mina top 10 filmer.</Link>
         </Col>
       </Row>
       <Footer />

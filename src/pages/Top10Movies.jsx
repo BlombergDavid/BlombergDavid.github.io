@@ -17,10 +17,11 @@ import FantasticMrFoxCover from "../images/movies/mrfox.jpg";
 import { Link } from "react-router-dom";
 
 
+
+
 const Top10Movies = () => {
   const data = require("../jsonFiles/movies.json");
   useEffect(() => {
-    window.scrollTo(0, 0);
     const handleScroll = () => {
       const elements = document.querySelectorAll(".item-entry");
 
@@ -98,7 +99,7 @@ const Top10Movies = () => {
 
   return (
     <>
-      <Top10Header />
+      <Top10Header marginBottom="mb-5" />
       <div className="pt-3 text-color movie-section">
         <h1 className="top-10-title">Mina top 10 filmer</h1>
         <Row className="item-entry">
@@ -275,13 +276,13 @@ const Top10Movies = () => {
       </div>
       <Row className="mb-5 text-center">
         <Col md={4}>
-          <Link to="/top-albums">Mina top 10 album.</Link>
+          <Link to="/interests/top-albums">Mina top 10 album.</Link>
         </Col>
         <Col md={4}>
-          <Link to="/top-games">Mina top 10 TV-spel.</Link>
+          <Link to="/interests/top-games">Mina top 10 TV-spel.</Link>
         </Col>
         <Col md={4}>
-          <Link to="/top-shows">Mina top 10 TV-serier.</Link>
+          <Link to="/interests/top-shows">Mina top 10 TV-serier.</Link>
         </Col>
       </Row>
       <Footer />
