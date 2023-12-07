@@ -1,70 +1,46 @@
 {
   "value": [
     {
-      "title": "Post 1 Title",
+      "title": "Musiktips: Dilated Peoples ft Kanye West - This Way",
       "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "mainTextPart1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "mainTextPart2": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
       "images": [
-        "https://www.shutterstock.com/shutterstock/photos/2235667567/display_1500/stock-photo-fashion-industry-black-woman-and-designer-portrait-of-clothing-tailor-with-business-vision-smile-2235667567.jpg",
-        "https://i0.wp.com/www.authormedia.com/wp-content/uploads/2012/03/bigstock_Shocked_Computer_Nerd_1520709.jpg?fit=600%2C600&ssl=1"
+        "https://lh3.googleusercontent.com/p5JTLp0gR2Cm_B6GCierYYTS1D6_h9v7aKVsBRpjC1QePp1sRDJjAIRY9f3JmAJRtZtFbcF8fBb0Gyro=w1840-h766-p-l90-rj",
+        "https://img.buzzfeed.com/buzzfeed-static/complex/images/Y19jcm9wLGhfMTE1Nyx3XzIwNTcseF8wLHlfODc=/eirr7gckqpfo8zzrmsd5/kanye-west-2004-rookie.jpg"
       ],
-      "author": "Author 1",
-      "timestamp": "2023-01-01"
+      "author": "David Blomberg",
+      "timestamp": "2023-12-10",
+      "type": ["Musik", "Rekommendation"],
+      "videoUrl": "https://www.youtube.com/watch?v=Rbo9QlcLcX8"
     },
     {
-      "title": "Post 2 Title",
+      "title": "Fleabag",
       "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "mainTextPart1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "mainTextPart2": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
       "images": [
-        "https://www.shutterstock.com/shutterstock/photos/2235667567/display_1500/stock-photo-fashion-industry-black-woman-and-designer-portrait-of-clothing-tailor-with-business-vision-smile-2235667567.jpg",
-        "https://i0.wp.com/www.authormedia.com/wp-content/uploads/2012/03/bigstock_Shocked_Computer_Nerd_1520709.jpg?fit=600%2C600&ssl=1"
+        "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/S/pv-target-images/763c0d632cc2e7b97733528c8691529ded913b45b6741dfb99b884fc7c589d83.jpg",
+        "https://blogs.libraries.indiana.edu/wp-content/uploads/2020/02/Leah-Ashebir-blog-post-Spring-2020-pic-2.jpg"
       ],
-      "author": "Author 2",
-      "timestamp": "2023-02-02"
+      "author": "David Blomberg",
+      "timestamp": "2023-12-09",
+      "type": ["TV-serie", "Rekommendation"],
+      "videoUrl": "https://www.youtube.com/watch?v=zKZMCuppTeo"
     },
     {
-      "title": "Post 3 Title",
+      "title": "Hollow Knight",
       "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "mainTextPart1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "mainTextPart2": "Far far away behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
       "images": [
-        "https://www.shutterstock.com/shutterstock/photos/2235667567/display_1500/stock-photo-fashion-industry-black-woman-and-designer-portrait-of-clothing-tailor-with-business-vision-smile-2235667567.jpg",
-        "https://i0.wp.com/www.authormedia.com/wp-content/uploads/2012/03/bigstock_Shocked_Computer_Nerd_1520709.jpg?fit=600%2C600&ssl=1"
+        "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51",
+        "https://i.ytimg.com/vi/_dW5f94qLUI/maxresdefault.jpg"
       ],
-      "author": "Author 3",
-      "timestamp": "2023-03-03"
-    },
-    {
-      "title": "Post 4 Title",
-      "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "images": [
-        "https://www.shutterstock.com/shutterstock/photos/2235667567/display_1500/stock-photo-fashion-industry-black-woman-and-designer-portrait-of-clothing-tailor-with-business-vision-smile-2235667567.jpg",
-        "https://i0.wp.com/www.authormedia.com/wp-content/uploads/2012/03/bigstock_Shocked_Computer_Nerd_1520709.jpg?fit=600%2C600&ssl=1"
-      ],
-      "author": "Author 4",
-      "timestamp": "2023-04-04"
-    },
-    {
-        "title": "Post 5 Title",
-        "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "images": [
-          "https://www.shutterstock.com/shutterstock/photos/2235667567/display_1500/stock-photo-fashion-industry-black-woman-and-designer-portrait-of-clothing-tailor-with-business-vision-smile-2235667567.jpg",
-          "https://i0.wp.com/www.authormedia.com/wp-content/uploads/2012/03/bigstock_Shocked_Computer_Nerd_1520709.jpg?fit=600%2C600&ssl=1"
-        ],
-        "author": "Author 3",
-        "timestamp": "2023-03-03"
-      },
-      {
-        "title": "Post 6 Title",
-        "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "images": [
-          "https://www.shutterstock.com/shutterstock/photos/2235667567/display_1500/stock-photo-fashion-industry-black-woman-and-designer-portrait-of-clothing-tailor-with-business-vision-smile-2235667567.jpg",
-          "https://i0.wp.com/www.authormedia.com/wp-content/uploads/2012/03/bigstock_Shocked_Computer_Nerd_1520709.jpg?fit=600%2C600&ssl=1"
-        ],
-        "author": "Author 4",
-        "timestamp": "2023-04-04"
-      }
+      "author": "David Blomberg",
+      "timestamp": "2023-12-07",
+      "type": ["TV-spel", "Recension"],
+      "videoUrl": "https://www.youtube.com/watch?v=UAO2urG23S4"
+    }
   ]
 }

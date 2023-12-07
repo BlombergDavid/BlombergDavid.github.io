@@ -37,3 +37,8 @@
   height: 50px;
   border-radius: 25px;
 }
+
+.cursive-font {
+  font-family: "Dancing Script", cursive;
+  /* Add any additional styling for the cursive font here */
+}

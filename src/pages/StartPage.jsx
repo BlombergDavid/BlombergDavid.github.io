@@ -258,7 +258,7 @@ const StartPage = () => {
           style={{ marginBottom: "64px" }}
           id="interests"
         >
-          <h1 className="mb-5">Mina top 10</h1>
+          <h1 className="mb-5">Intressen</h1>
           <p>
             Jag har alltid tyckt att en persons smak av musik, film och spel
             säger en del om den personen. Så när en vän rekommenderar film eller

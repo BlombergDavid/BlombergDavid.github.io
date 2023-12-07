@@ -8,12 +8,13 @@ import Top10Shows from "./pages/Top10Shows";
 import Top10VideoGames from "./pages/Top10VideoGames";
 import BlogPost from "./components/BlogPost";
 import BrowsePosts from "./pages/BrowsePosts";
+import NotFound from "./components/NotFound";
+import MyInterests from "./pages/MyInterests";
 
 function App() {
   const location = useLocation();
   const blogPostData = require("./jsonFiles/blogPosts.json");
   const blogPostArray = blogPostData.value;
-
 
   const ScrollToTop = () => {
     const { location } = useLocation();
@@ -30,6 +31,7 @@ function App() {
       <ScrollToTop />
       <Routes key={location.pathname} location={location}>
         <Route path="/" element={<StartPage />} />
+        <Route path="/interests" element={<MyInterests />} />
         <Route path="/interests/top-albums" element={<Top10Albums />} />
         <Route path="/interests/top-movies" element={<Top10Movies />} />
         <Route path="/interests/top-games" element={<Top10VideoGames />} />
@@ -42,6 +44,7 @@ function App() {
             element={<BlogPost post={post} />}
           />
         ))}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );

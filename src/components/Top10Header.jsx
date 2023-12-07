@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Container, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import "./Header.css";
 
 const Top10Header = (props) => {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ const Top10Header = (props) => {
             navigate("/");
           }}
         >
-          David Blomberg
+          <span className="cursive-font">David Blomberg</span>
         </h1>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
