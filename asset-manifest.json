@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ce39c61.css",
-    "main.js": "/static/js/main.0543abf4.js",
+    "main.css": "/static/css/main.f19b5050.css",
+    "main.js": "/static/js/main.768679de.js",
     "static/js/787.e5bf260a.chunk.js": "/static/js/787.e5bf260a.chunk.js",
     "static/media/mrfox.jpg": "/static/media/mrfox.28a235492f4081292751.jpg",
     "static/media/silenceofthelambs.jpg": "/static/media/silenceofthelambs.d449471574d3329d1ff6.jpg",
@@ -26,12 +26,14 @@
     "static/media/parasite.jpg": "/static/media/parasite.bdcfc3b0bf8801e66253.jpg",
     "static/media/rockband2.jpg": "/static/media/rockband2.3c00df908eb0834d73df.jpg",
     "static/media/persona5.jpg": "/static/media/persona5.fbcdaaf4ae9026e6df4d.jpg",
+    "static/media/cinema.jpg": "/static/media/cinema.343ff1ea400b8ea4324c.jpg",
     "static/media/hybridtheory.jpg": "/static/media/hybridtheory.5873c3cc0b5c59ac8656.jpg",
     "static/media/truedetective.webp": "/static/media/truedetective.9b3384167db316b45c90.webp",
     "static/media/seinfeld.jpg": "/static/media/seinfeld.cbb76b617b691748c528.jpg",
     "static/media/david_blomberg_2.jpg": "/static/media/david_blomberg_2.b76ccca056e0228f7fcc.jpg",
     "static/media/isthisit.jpg": "/static/media/isthisit.044b57561505bb0f1272.jpg",
     "static/media/itsalwayssunny.jpg": "/static/media/itsalwayssunny.05a6789e8c93e71df6b3.jpg",
+    "static/media/turntable.jpg": "/static/media/turntable.71f3685a8265dd5a5dce.jpg",
     "static/media/pexels-photo-2387793.jpeg": "/static/media/pexels-photo-2387793.3feba042264a6b7ff2d9.jpeg",
     "static/media/slaythespire.jpg": "/static/media/slaythespire.82dfefced9e3693db7a5.jpg",
     "static/media/AtrocityExhibition.jpg": "/static/media/AtrocityExhibition.499a9e9cf9fce1b9c2d4.jpg",
@@ -48,12 +50,12 @@
     "static/media/pinata.jpg": "/static/media/pinata.3b9bcf5e1c69ece05c7d.jpg",
     "static/media/enterthewutang.jpeg": "/static/media/enterthewutang.7fcf707a519b8735d85d.jpeg",
     "index.html": "/index.html",
-    "main.9ce39c61.css.map": "/static/css/main.9ce39c61.css.map",
-    "main.0543abf4.js.map": "/static/js/main.0543abf4.js.map",
+    "main.f19b5050.css.map": "/static/css/main.f19b5050.css.map",
+    "main.768679de.js.map": "/static/js/main.768679de.js.map",
     "787.e5bf260a.chunk.js.map": "/static/js/787.e5bf260a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ce39c61.css",
-    "static/js/main.0543abf4.js"
+    "static/css/main.f19b5050.css",
+    "static/js/main.768679de.js"
   ]
 }
