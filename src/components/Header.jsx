@@ -21,7 +21,7 @@ const Header = () => {
         </h1>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <ButtonGroup aria-label="Basic example">
+          <ButtonGroup aria-label="Buttongroup header" className="flex-wrap">
             <ScrollToButton
               text="Hem"
               variant="light"

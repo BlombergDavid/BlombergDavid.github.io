@@ -6,7 +6,6 @@
 body {
   background: url("./images/pexels-photo-2387793.jpeg") center/cover fixed
     no-repeat;
-    overflow-x: hidden;
 }
 
 .main-content {

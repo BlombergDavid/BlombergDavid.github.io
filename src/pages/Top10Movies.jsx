@@ -15,9 +15,7 @@ import AmelieCover from "../images/movies/amelie.jpg";
 import SuperbadCover from "../images/movies/superbad.jpg";
 import FantasticMrFoxCover from "../images/movies/mrfox.jpg";
 import { Link } from "react-router-dom";
-
-
-
+import BackButton from "../components/BackButton";
 
 const Top10Movies = () => {
   const data = require("../jsonFiles/movies.json");
@@ -274,15 +272,20 @@ const Top10Movies = () => {
           </Col>
         </Row>
       </div>
-      <Row className="mb-5 text-center">
-        <Col md={4}>
+      <Row className="mb-5 text-center" style={{ maxWidth: "100%" }}>
+        <Col md={4} className="mb-3">
           <Link to="/interests/top-albums">Mina top 10 album.</Link>
         </Col>
-        <Col md={4}>
+        <Col md={4} className="mb-3">
           <Link to="/interests/top-games">Mina top 10 TV-spel.</Link>
         </Col>
         <Col md={4}>
           <Link to="/interests/top-shows">Mina top 10 TV-serier.</Link>
+        </Col>
+      </Row>
+      <Row className="py-5 px-5">
+        <Col>
+          <BackButton link="/interests" text="Tillbaka" />
         </Col>
       </Row>
       <Footer />

@@ -2,44 +2,48 @@
   width: 85%;
   min-height: 100vh;
   margin: 0 auto; /* This centers the div horizontally */
-  background-color: rgba(255, 255, 255, 0.6);
   padding: 32px;
 }
 
 .post-title {
   text-align: center;
   font-size: 3rem;
-  color: #333;
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
   font-weight: 800;
 }
 
 .post-intro-section {
-  font-size: 1.8rem;
-  color: #555;
+  font-size: 1.5rem;
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
   font-weight: 600;
 }
 
 .post-main-text {
-  color: #333;
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
   font-size: 1.2rem;
   font-weight: 400;
 }
 
 .post-time-of-publishing, .post-type {
   font-size: 0.9rem;
-  color: #777;
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
   text-align: right;
 }
 
 .post-author-name {
   font-size: 1.1rem;
-  color: #333;
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
   font-weight: 600;
   text-align: right;
 }
 
 .post-type {
-  text-align: center;
+  text-align: left;
 }
 
 .post-image, .post-image-2 {
@@ -50,8 +54,16 @@
   margin: 0 auto;
 }
 
+.post-score {
+  font-style: italic;
+  font-size: 5rem;
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+  font-weight: 800;
+}
+
 @media screen and (max-width: 768px) {
-  .post-title {
+  .post-title, .post-score {
     font-size: 2.5rem;
   }
 
@@ -74,7 +86,7 @@
 
 /* Media Queries for Very Small Screens (e.g., Mobile) */
 @media screen and (max-width: 480px) {
-  .post-title {
+  .post-title, .post-score {
     font-size: 2rem;
   }
 

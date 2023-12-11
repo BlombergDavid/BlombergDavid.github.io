@@ -18,6 +18,7 @@ const BlogPost = ({ post }) => {
     timestamp,
     type,
     videoUrl,
+    score
   } = post;
 
   return (
@@ -51,7 +52,7 @@ const BlogPost = ({ post }) => {
             <p className="post-main-text">{renderDescription(mainTextPart2)}</p>
           </Col>
         </Row>
-        <Row className="justify-content-center mt-3 mb-5">
+        <Row className="justify-content-center my-3">
           <Col md={10}>
             <Image
               src={images[1]}
@@ -62,10 +63,14 @@ const BlogPost = ({ post }) => {
             ></Image>
           </Col>
         </Row>
+        {!!score ? (
+          <Row className="justify-content-center mt-3 mb-5">
+            <Col md={10}>
+              <p className="post-score">{score}</p>
+            </Col>
+          </Row>
+        ) : null}
         <Row className="pt-3">
-          <Col>
-            <BackButton link="/interests/posts" text="Tillbaka till inlägg" />
-          </Col>
           <Col>
             <p className="post-author-name"> {author}</p>
           </Col>

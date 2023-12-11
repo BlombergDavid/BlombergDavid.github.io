@@ -42,7 +42,7 @@ const StartPage = () => {
     <div className="App">
       <Header></Header>
       <div className="main-content">
-        <div className="fade-in" style={{ marginBottom: "128px" }} id="home">
+        <div className="fade-in mb-5" id="home">
           <h1>Hej och välkommen till min hemsida!</h1>
           <p>
             Mitt namn är David Blomberg, och det är roligt att du har hittat
@@ -199,7 +199,7 @@ const StartPage = () => {
             </Col>
           </Row>
         </div>
-        <div className="fade-in" style={{ minHeight: "100vh" }} id="skills">
+        <div className="fade-in" id="skills">
           <h1 className="mb-5">Relevanta kunskaper</h1>
           <Row>
             <Col className="left-align" md={8} lg={5}>
@@ -264,25 +264,13 @@ const StartPage = () => {
             säger en del om den personen. Så när en vän rekommenderar film eller
             musik som är nytt för mig, är det alltid kul! Här har du några av
             mina topplistor. Kanske får du en bättre insikt om vem jag är som
-            person, eller så upptäcker du ett nytt album som är 🔥? Hur som
+            person, eller så upptäcker du ett nytt album? Hur som
             helst, tack för att du tog dig tiden att kika igenom min lilla
             hemsida! 😁
           </p>
           <Row>
             <Col>
-              <Link to="/interests/top-albums">Mina top 10 album.</Link>
-            </Col>
-            <Col>
-              <Link to="/interests/top-movies">Mina top 10 filmer.</Link>
-            </Col>
-            <Col>
-              <Link to="/interests/top-games">Mina top 10 TV-spel.</Link>
-            </Col>
-            <Col>
-              <Link to="/interests/top-shows">Mina top 10 TV-serier.</Link>
-            </Col>
-            <Col>
-              <Link to="/interests/posts">Mina inlägg.</Link>
+              <Link className="post-link" to="/interests">Mina Intressen</Link>
             </Col>
           </Row>
         </div>

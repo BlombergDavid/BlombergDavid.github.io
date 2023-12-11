@@ -2,16 +2,16 @@
   width: 85%;
   min-height: 100vh;
   margin: 0 auto; /* This centers the div horizontally */
-  background-color: rgba(255, 255, 255, 0.6);
   padding: 32px;
+}
+
+.browse-posts-title {
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); /* A dark gray color for good contrast */
 }
 
 .blogpost-item-container {
   margin-bottom: 64px;
-}
-
-.blogpost-item-container {
-  background-color: rgba(150, 150, 150, 0.1);
 }
 
 .post-link {
@@ -20,18 +20,22 @@
 
 .post-preview-description {
   font-size: 16px; /* Adjust based on your preference */
-  color: #333; /* A dark gray color for good contrast */
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); /* A dark gray color for good contrast */
   max-width: 75%;
+  margin-top: 0.5rem;
 }
 
 .post-preview-row-description {
-    font-size: 16px; /* Adjust based on your preference */
-    color: #333; /* A dark gray color for good contrast */
-  }
+  font-size: 16px; /* Adjust based on your preference */
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); /* A dark gray color for good contrast */
+}
 
 .post-preview-timestamp {
   font-size: 12px; /* Adjust based on your preference */
-  color: #333; /* A dark gray color for good contrast */
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); /* A dark gray color for good contrast */
 }
 
 .preview-image {
@@ -43,4 +47,10 @@
 
 .blogpost-item-row-container {
   text-align: center;
+}
+
+@media screen and (max-widht: 576px) {
+  .post-preview-description {
+    margin-top: 1rem;
+  }
 }

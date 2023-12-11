@@ -15,9 +15,7 @@ import Halo3Cover from "../images/videogames/halo3.JPG";
 import WarCraft3Cover from "../images/videogames/wc3.jpg";
 import DivinityOriginalSin2Cover from "../images/videogames/dos2.jpg";
 import { Link } from "react-router-dom";
-
-
-
+import BackButton from "../components/BackButton";
 
 const Top10VideoGames = () => {
   const data = require("../jsonFiles/games.json");
@@ -261,17 +259,23 @@ const Top10VideoGames = () => {
           </Col>
         </Row>
       </div>
-      <Row className="mb-5 text-center">
-        <Col md={4}>
+      <Row className="mb-5 text-center" style={{ maxWidth: "100%" }}>
+        <Col md={4} className="mb-3">
           <Link to="/interests/top-albums">Mina top 10 album.</Link>
         </Col>
-        <Col md={4}>
-          <a href="/interests/top-shows">Mina top 10 serier.</a>
+        <Col md={4} className="mb-3">
+          <Link to="/interests/top-shows">Mina top 10 serier.</Link>
         </Col>
         <Col md={4}>
           <Link to="/interests/top-movies">Mina top 10 filmer.</Link>
         </Col>
       </Row>
+      <Row className="py-5 px-5">
+        <Col>
+          <BackButton link="/interests" text="Tillbaka" />
+        </Col>
+      </Row>
+
       <Footer />
     </>
   );

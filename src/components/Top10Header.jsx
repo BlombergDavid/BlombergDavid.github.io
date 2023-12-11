@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container, Button } from "react-bootstrap";
+import { Navbar, Container, Button, ButtonGroup } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
 
@@ -7,7 +7,7 @@ const Top10Header = (props) => {
   const navigate = useNavigate();
 
   return (
-    <Navbar className={props.marginBottom + " dark-theme"} sticky="top" variant="dark">
+    <Navbar expand="md" className={props.marginBottom + " dark-theme"} sticky="top" variant="dark">
       <Container>
         <Navbar.Brand
           title="Hem"
@@ -24,6 +24,7 @@ const Top10Header = (props) => {
         </h1>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
+        <ButtonGroup aria-label="Buttongroup header">
           <Button
             variant="light"
             onClick={() => {
@@ -32,6 +33,18 @@ const Top10Header = (props) => {
           >
             Hem
           </Button>
+          <Button
+            variant="light"
+            onClick={() => {
+              navigate("/interests");
+            }}
+          >
+            Mina Intressen
+          </Button>
+        </ButtonGroup>
+
+
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>

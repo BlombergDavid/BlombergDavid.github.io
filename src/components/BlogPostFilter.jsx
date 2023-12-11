@@ -31,7 +31,7 @@ const BlogPostFilter = ({ posts, onFilterChange }) => {
       variant="light"
     >
       <Dropdown.Item onClick={() => handleFilterChange(null)}>
-        All
+        Alla
       </Dropdown.Item>
       {uniqueTypes.map((type, index) => (
         <Dropdown.Item key={index} onClick={() => handleFilterChange(type)}>

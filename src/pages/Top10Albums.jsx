@@ -15,8 +15,7 @@ import { returnListOfStrings, renderDescription } from "../functions";
 import Footer from "../components/Footer";
 import Top10Header from "../components/Top10Header";
 import { Link } from "react-router-dom";
-
-
+import BackButton from "../components/BackButton";
 
 const Top10Albums = () => {
   const data = require("../jsonFiles/albums.json");
@@ -77,7 +76,13 @@ const Top10Albums = () => {
             </p>
             <p>
               <strong>Spotifylänk: </strong>
-              <a rel="noopener noreferrer" target="_blank" href={returnData.link}>{returnData.link}</a>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href={returnData.link}
+              >
+                {returnData.link}
+              </a>
             </p>
           </div>
         );
@@ -98,9 +103,14 @@ const Top10Albums = () => {
               fluid
               alt="Madvillainy"
               className="album-image"
+              roundedCircle
             />
           </Col>
-          <Col md={{ order: 1 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            md={{ order: 1 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             {returnAlbumData("Madvillainy")}
           </Col>
         </Row>
@@ -108,12 +118,18 @@ const Top10Albums = () => {
           <Col md={{ order: 1 }} lg={{ order: 1, span: 5 }}>
             {returnAlbumData("MY WOMAN")}
           </Col>
-          <Col xs={{ order: 2 }} md={{ order: 2 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            xs={{ order: 2 }}
+            md={{ order: 2 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             <Image
               src={MyWomanCover}
               fluid
               alt="My Woman"
               className="album-image"
+              roundedCircle
             />
           </Col>
         </Row>
@@ -124,9 +140,14 @@ const Top10Albums = () => {
               fluid
               alt="From Mars to Sirius"
               className="album-image"
+              roundedCircle
             />
           </Col>
-          <Col md={{ order: 1 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            md={{ order: 1 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             {returnAlbumData("From Mars to Sirius")}
           </Col>
         </Row>
@@ -134,12 +155,18 @@ const Top10Albums = () => {
           <Col md={{ order: 1 }} lg={{ order: 1, span: 5 }}>
             {returnAlbumData("Jane Doe")}
           </Col>
-          <Col xs={{ order: 2 }} md={{ order: 2 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            xs={{ order: 2 }}
+            md={{ order: 2 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             <Image
               src={JaneDoeCover}
               fluid
               alt="Jane Doe"
               className="album-image"
+              roundedCircle
             />
           </Col>
         </Row>
@@ -150,9 +177,14 @@ const Top10Albums = () => {
               fluid
               alt="Atrocity Exhibition"
               className="album-image"
+              roundedCircle
             />
           </Col>
-          <Col md={{ order: 1 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            md={{ order: 1 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             {returnAlbumData("Atrocity Exhibition")}
           </Col>
         </Row>
@@ -160,12 +192,18 @@ const Top10Albums = () => {
           <Col md={{ order: 1 }} lg={{ order: 1, span: 5 }}>
             {returnAlbumData("OK Computer")}
           </Col>
-          <Col xs={{ order: 2 }} md={{ order: 2 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            xs={{ order: 2 }}
+            md={{ order: 2 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             <Image
               src={OkComputerCover}
               fluid
               alt="Ok Computer"
               className="album-image"
+              roundedCircle
             />
           </Col>
         </Row>
@@ -176,9 +214,14 @@ const Top10Albums = () => {
               fluid
               alt="Enter the Wu-Tang (36 Chambers)"
               className="album-image"
+              roundedCircle
             />
           </Col>
-          <Col md={{ order: 1 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            md={{ order: 1 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             {returnAlbumData("Enter the Wu-Tang (36 Chambers)")}
           </Col>
         </Row>
@@ -186,12 +229,18 @@ const Top10Albums = () => {
           <Col md={{ order: 1 }} lg={{ order: 1, span: 5 }}>
             {returnAlbumData("Hybrid Theory")}
           </Col>
-          <Col xs={{ order: 2 }} md={{ order: 2 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            xs={{ order: 2 }}
+            md={{ order: 2 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             <Image
               src={HybridTheoryCover}
               fluid
               alt="Hybrid Theory"
               className="album-image"
+              roundedCircle
             />
           </Col>
         </Row>
@@ -202,9 +251,14 @@ const Top10Albums = () => {
               fluid
               alt="Piñata"
               className="album-image"
+              roundedCircle
             />
           </Col>
-          <Col md={{ order: 1 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            md={{ order: 1 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             {returnAlbumData("Piñata")}
           </Col>
         </Row>
@@ -212,27 +266,39 @@ const Top10Albums = () => {
           <Col md={{ order: 1 }} lg={{ order: 1, span: 5 }}>
             {returnAlbumData("Is This It")}
           </Col>
-          <Col xs={{ order: 2 }} md={{ order: 2 }} lg={{ order: 2, span: 5, offset: 1 }} xl={{ order: 2, span: 5, offset: 2 }}>
+          <Col
+            xs={{ order: 2 }}
+            md={{ order: 2 }}
+            lg={{ order: 2, span: 5, offset: 1 }}
+            xl={{ order: 2, span: 5, offset: 2 }}
+          >
             <Image
               src={IsThisItCover}
               fluid
               alt="Is this it"
               className="album-image"
+              roundedCircle
             />
           </Col>
         </Row>
       </div>
-      <Row className="mb-5 text-center">
-        <Col md={4}>
+      <Row className="mb-5 text-center" style={{ maxWidth: "100%" }}>
+        <Col md={4} className="mb-3">
           <Link to="/interests/top-movies">Mina top 10 filmer.</Link>
         </Col>
-        <Col md={4}>
+        <Col md={4} className="mb-3">
           <Link to="/interests/top-games">Mina top 10 TV-spel.</Link>
         </Col>
         <Col md={4}>
           <Link to="/interests/top-shows">Mina top 10 TV-serier.</Link>
         </Col>
       </Row>
+      <Row className="py-5 px-5">
+        <Col>
+          <BackButton link="/interests" text="Tillbaka" />
+        </Col>
+      </Row>
+
       <Footer />
     </>
   );

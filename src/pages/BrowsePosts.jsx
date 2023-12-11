@@ -46,21 +46,20 @@ const BrowsePosts = () => {
       <Top10Header />
       <div className="browse-posts-container">
         <Row>
-          <Col>
-            <h1>Mina Inlägg</h1>
+          <Col xs={6} lg={3}>
+            <h1 className="browse-posts-title">Mina Inlägg</h1>
           </Col>
-          <Col>
+          <Col xs={6} lg={3} className="d-flex align-items-center">
             <BlogPostFilter
               posts={blogPostArray}
               onFilterChange={handleFilterChange}
             />
           </Col>
         </Row>
-        <p>This is a list of posts:</p>
         {itemsPerRow === 1 ? (
           filteredPosts.map((post, index) => (
             <Row className="blogpost-item-container">
-              <Col>
+              <Col xs={12} md={6} xl={8}>
                 <Link
                   key={index}
                   className="post-link"
@@ -70,7 +69,7 @@ const BrowsePosts = () => {
                 </Link>
                 <p className="post-preview-description">{post.intro}</p>
                 <p className="post-preview-description">
-                  {returnListOfStrings(post.type)}
+                  <i>{returnListOfStrings(post.type)}</i>
                 </p>
                 <p className="post-preview-timestamp">{post.timestamp}</p>
               </Col>
@@ -102,6 +101,9 @@ const BrowsePosts = () => {
                   {post.title}
                 </Link>
                 <p className="post-preview-row-description">{post.intro}</p>
+                <p className="post-preview-description">
+                  <i>{returnListOfStrings(post.type)}</i>
+                </p>
                 <p className="post-preview-timestamp">{post.timestamp}</p>
                 <Image
                   src={post.images[0]}
@@ -116,7 +118,7 @@ const BrowsePosts = () => {
         )}
         <Row className="pt-3">
           <Col>
-            <BackButton link="/" text="Tillbaka till startsidan" />
+            <BackButton link="/interests" text="Tillbaka" />
           </Col>
         </Row>
       </div>
