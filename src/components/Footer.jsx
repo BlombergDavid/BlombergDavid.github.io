@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { SocialIcon } from "react-social-icons";
-import { FaPhoneSquareAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 
@@ -28,9 +28,9 @@ const Footer = () => {
 
           <div className="col-6 col-md-3 mt-1 mb-1 d-flex align-items-center">
             <Link title="Copy my number: +46735287832" id="t-2">
-              <FaPhoneSquareAlt
+              <FaPhoneAlt
                 className="me-2 custom-icon"
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", color: "green", scale: "1" }}
                 onClick={() => {
                   navigator.clipboard.writeText("+46735287832");
                 }}
