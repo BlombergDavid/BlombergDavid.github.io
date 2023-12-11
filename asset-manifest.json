@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9b8ea62.css",
-    "main.js": "/static/js/main.0da5c477.js",
+    "main.js": "/static/js/main.002cf88b.js",
     "static/js/787.e5bf260a.chunk.js": "/static/js/787.e5bf260a.chunk.js",
     "static/media/mrfox.jpg": "/static/media/mrfox.28a235492f4081292751.jpg",
     "static/media/silenceofthelambs.jpg": "/static/media/silenceofthelambs.d449471574d3329d1ff6.jpg",
@@ -51,11 +51,11 @@
     "static/media/enterthewutang.jpeg": "/static/media/enterthewutang.7fcf707a519b8735d85d.jpeg",
     "index.html": "/index.html",
     "main.a9b8ea62.css.map": "/static/css/main.a9b8ea62.css.map",
-    "main.0da5c477.js.map": "/static/js/main.0da5c477.js.map",
+    "main.002cf88b.js.map": "/static/js/main.002cf88b.js.map",
     "787.e5bf260a.chunk.js.map": "/static/js/787.e5bf260a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9b8ea62.css",
-    "static/js/main.0da5c477.js"
+    "static/js/main.002cf88b.js"
   ]
 }
