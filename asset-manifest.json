@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9b8ea62.css",
-    "main.js": "/static/js/main.22357539.js",
+    "main.css": "/static/css/main.4a2d893e.css",
+    "main.js": "/static/js/main.2bca6227.js",
     "static/js/787.e5bf260a.chunk.js": "/static/js/787.e5bf260a.chunk.js",
     "static/media/mrfox.jpg": "/static/media/mrfox.28a235492f4081292751.jpg",
     "static/media/silenceofthelambs.jpg": "/static/media/silenceofthelambs.d449471574d3329d1ff6.jpg",
@@ -50,12 +50,12 @@
     "static/media/pinata.jpg": "/static/media/pinata.3b9bcf5e1c69ece05c7d.jpg",
     "static/media/enterthewutang.jpeg": "/static/media/enterthewutang.7fcf707a519b8735d85d.jpeg",
     "index.html": "/index.html",
-    "main.a9b8ea62.css.map": "/static/css/main.a9b8ea62.css.map",
-    "main.22357539.js.map": "/static/js/main.22357539.js.map",
+    "main.4a2d893e.css.map": "/static/css/main.4a2d893e.css.map",
+    "main.2bca6227.js.map": "/static/js/main.2bca6227.js.map",
     "787.e5bf260a.chunk.js.map": "/static/js/787.e5bf260a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9b8ea62.css",
-    "static/js/main.22357539.js"
+    "static/css/main.4a2d893e.css",
+    "static/js/main.2bca6227.js"
   ]
 }
