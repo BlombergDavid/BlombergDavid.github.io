@@ -10,6 +10,7 @@ import BlogPost from "./components/BlogPost";
 import BrowsePosts from "./pages/BrowsePosts";
 import NotFound from "./components/NotFound";
 import MyInterests from "./pages/MyInterests";
+import { motion, AnimatePresence } from "framer-motion";
 
 function App() {
   const location = useLocation();
@@ -29,23 +30,110 @@ function App() {
   return (
     <>
       <ScrollToTop />
-      <Routes key={location.pathname} location={location}>
-        <Route path="/" element={<StartPage />} />
-        <Route path="/interests" element={<MyInterests />} />
-        <Route path="/interests/top-albums" element={<Top10Albums />} />
-        <Route path="/interests/top-movies" element={<Top10Movies />} />
-        <Route path="/interests/top-games" element={<Top10VideoGames />} />
-        <Route path="/interests/top-shows" element={<Top10Shows />} />
-        <Route path="/interests/posts" element={<BrowsePosts />} />
-        {blogPostArray.map((post, index) => (
+      <AnimatePresence mode="wait">
+        <Routes key={location.pathname} location={location}>
           <Route
-            key={index}
-            path={`/interests/posts/${index + 1}`}
-            element={<BlogPost post={post} />}
+            path="/"
+            element={
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+              >
+                <StartPage />
+              </motion.div>
+            }
           />
-        ))}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+          <Route
+            path="/interests"
+            element={
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+              >
+                <MyInterests />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/interests/top-albums"
+            element={
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+              >
+                <Top10Albums />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/interests/top-movies"
+            element={
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+              >
+                <Top10Movies />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/interests/top-games"
+            element={
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+              >
+                <Top10VideoGames />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/interests/top-shows"
+            element={
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+              >
+                <Top10Shows />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/interests/posts"
+            element={
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+              >
+                <BrowsePosts />
+              </motion.div>
+            }
+          />
+          {blogPostArray.map((post, index) => (
+            <Route
+              key={index}
+              path={`/interests/posts/${index + 1}`}
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                >
+                  <BlogPost post={post} />
+                </motion.div>
+              }
+            />
+          ))}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </AnimatePresence>
     </>
   );
 }

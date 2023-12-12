@@ -31,6 +31,15 @@
   align-items: center;
 }
 
+.fade-in-additional-buttons {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in-additional-buttons.show {
+  opacity: 1;
+}
+
 @media screen and (min-width: 1200px) {
   .my-posts-button {
     width: 300px;
@@ -39,9 +48,8 @@
 }
 
 @media screen and (max-width: 576px) {
-    .my-interests-container {
-      background-image: url("../images/turntable.jpg");
-      background-size: 100% 100%
-      }
+  .my-interests-container {
+    background-image: url("../images/turntable.jpg");
+    background-size: 100% 100%;
   }
-  
+}

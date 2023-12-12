@@ -260,17 +260,19 @@ const StartPage = () => {
         >
           <h1 className="mb-5">Intressen</h1>
           <p>
-            Jag har alltid tyckt att en persons smak av musik, film och spel
-            säger en del om den personen. Så när en vän rekommenderar film eller
-            musik som är nytt för mig, är det alltid kul! Här har du några av
-            mina topplistor. Kanske får du en bättre insikt om vem jag är som
-            person, eller så upptäcker du ett nytt album? Hur som
-            helst, tack för att du tog dig tiden att kika igenom min lilla
-            hemsida! 😁
+            Jag har alltid tyckt att en persons smak i musik, film och spel
+            säger en hel del om den personen. Så när en vän rekommenderar en
+            film eller musik som är ny för mig, är det alltid roligt! Här delar
+            jag några av mina topplistor. Kanske får du en bättre förståelse av
+            vem jag är som person, eller så upptäcker du ett nytt album? Hur som
+            helst, tack för att du tog dig tid att utforska min lilla hemsida!
+            😁
           </p>
           <Row>
             <Col>
-              <Link className="post-link" to="/interests">Mina Intressen</Link>
+              <Link className="post-link" to="/interests">
+                Mina Intressen
+              </Link>
             </Col>
           </Row>
         </div>

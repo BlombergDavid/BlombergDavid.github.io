@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Row, Col } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
@@ -9,6 +9,15 @@ import Footer from "../components/Footer";
 const MyInterests = () => {
   const navigate = useNavigate();
   const [showAdditionalButtons, setShowAdditionalButtons] = useState(false);
+  const [fadeIn, setFadeIn] = useState(false);
+
+  useEffect(() => {
+    if (showAdditionalButtons) {
+      setFadeIn(true);
+    } else {
+      setFadeIn(false);
+    }
+  }, [showAdditionalButtons]);
 
   return (
     <>
@@ -28,18 +37,20 @@ const MyInterests = () => {
               className="my-posts-button mt-5 mx-3"
               onClick={() => {
                 setShowAdditionalButtons(!showAdditionalButtons);
+                console.log('fadeIn ', !fadeIn);
+                console.log('showAdditionalButtons ', !showAdditionalButtons)
               }}
             >
               Mina Top-10 Listor
             </Button>
             {showAdditionalButtons && (
-              <Row style={{ textAlign: "center" }}>
+              <Row style={{ textAlign: "center" }} className={fadeIn ? 'fade-in-additional-buttons show' : 'fade-in-additional-buttons'}>                
                 <Col sm={12} md={6} lg={3}>
                   <Button
                     onClick={() => {
                       navigate("/interests/top-albums");
                     }}
-                    variant="primary"
+                    variant="dark"
                     style={{ whiteSpace: 'nowrap' }}
                     className="m-3"
                   >
@@ -51,7 +62,7 @@ const MyInterests = () => {
                     onClick={() => {
                       navigate("/interests/top-movies");
                     }}
-                    variant="primary"
+                    variant="dark"
                     style={{ whiteSpace: 'nowrap' }}
                     className="m-3"
                   >
@@ -63,7 +74,7 @@ const MyInterests = () => {
                     onClick={() => {
                       navigate("/interests/top-games");
                     }}
-                    variant="primary"
+                    variant="dark"
                     style={{ whiteSpace: 'nowrap' }}
                     className="m-3"
                   >
@@ -75,7 +86,7 @@ const MyInterests = () => {
                     onClick={() => {
                       navigate("/interests/top-shows");
                     }}
-                    variant="primary"
+                    variant="dark"
                     style={{ whiteSpace: 'nowrap' }}
                     className="m-3"
                   >
