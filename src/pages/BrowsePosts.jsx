@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./BrowsePosts.css";
 import Footer from "../components/Footer";
 import Top10Header from "../components/Top10Header";
-import { returnListOfStrings } from "../functions";
+import { returnListOfStrings, truncateString } from "../functions";
 import BlogPostFilter from "../components/BlogPostFilter";
 import BackButton from "../components/BackButton";
 
@@ -63,11 +63,11 @@ const BrowsePosts = () => {
                 <Link
                   key={index}
                   className="post-link"
-                  to={`/interests/posts/${index + 1}`}
+                  to={`/interests/posts/${post.postID}`}
                 >
                   {post.title}
                 </Link>
-                <p className="post-preview-description">{post.intro}</p>
+                <p className="post-preview-description">{truncateString(post.intro, 200)}</p>
                 <p className="post-preview-description">
                   <i>{returnListOfStrings(post.type)}</i>
                 </p>
@@ -96,7 +96,7 @@ const BrowsePosts = () => {
                 <Link
                   key={index}
                   className="post-link"
-                  to={`/interests/posts/${index + 1}`}
+                  to={`/interests/posts/${post.postID}`}
                 >
                   {post.title}
                 </Link>

@@ -119,7 +119,7 @@ function App() {
           {blogPostArray.map((post, index) => (
             <Route
               key={index}
-              path={`/interests/posts/${index + 1}`}
+              path={`/interests/posts/${post.postID}`}
               element={
                 <motion.div
                   initial={{ opacity: 0 }}

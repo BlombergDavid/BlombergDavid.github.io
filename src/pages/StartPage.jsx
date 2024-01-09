@@ -58,7 +58,7 @@ const StartPage = () => {
           <Row>
             <Col className="left-align" md={8} lg={5}>
               <p>
-                Jag är en 27-årig utvecklare som har jobbat som IT-konsult sedan
+                Jag är en 28-årig utvecklare som har jobbat som IT-konsult sedan
                 jag tog min examen 2021 inom informations- och
                 kommunikationsteknik på Lunds tekniska högskola.
               </p>

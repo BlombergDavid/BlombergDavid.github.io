@@ -283,7 +283,7 @@ const Top10Movies = () => {
           <Link to="/interests/top-shows">Mina top 10 TV-serier.</Link>
         </Col>
       </Row>
-      <Row className="py-5 px-5">
+      <Row className="py-5 px-5" style={{ maxWidth: "100%" }}>
         <Col>
           <BackButton link="/interests" text="Tillbaka" />
         </Col>

@@ -270,7 +270,7 @@ const Top10VideoGames = () => {
           <Link to="/interests/top-movies">Mina top 10 filmer.</Link>
         </Col>
       </Row>
-      <Row className="py-5 px-5">
+      <Row className="py-5 px-5" style={{ maxWidth: "100%" }}>
         <Col>
           <BackButton link="/interests" text="Tillbaka" />
         </Col>
