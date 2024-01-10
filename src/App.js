@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import StartPage from "./pages/StartPage";
 import Top10Albums from "./pages/Top10Albums";
@@ -11,11 +11,31 @@ import BrowsePosts from "./pages/BrowsePosts";
 import NotFound from "./components/NotFound";
 import MyInterests from "./pages/MyInterests";
 import { motion, AnimatePresence } from "framer-motion";
+import { db } from "./firebase-config";
+import { collection, getDocs } from "firebase/firestore";
 
 function App() {
   const location = useLocation();
   const blogPostData = require("./jsonFiles/blogPosts.json");
   const blogPostArray = blogPostData.value;
+
+  const [firebasePosts, setFirebasePosts] = useState([]);
+  const postsCollectionRef = collection(db, "posts");
+
+  useEffect(() => {
+    const getPosts = async () => {
+      const data = await getDocs(postsCollectionRef);
+      setFirebasePosts(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    };
+
+    getPosts();
+  }, []);
+
+  useEffect(() => {
+    if (firebasePosts.length > 0) {
+      console.log(firebasePosts);
+    }
+  }, [firebasePosts]);
 
   const ScrollToTop = () => {
     const { location } = useLocation();
