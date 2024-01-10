@@ -23,12 +23,14 @@ function App() {
   const postsCollectionRef = collection(db, "posts");
 
   useEffect(() => {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     const getPosts = async () => {
       const data = await getDocs(postsCollectionRef);
       setFirebasePosts(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
 
     getPosts();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
