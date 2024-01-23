@@ -37,8 +37,6 @@ const MyInterests = () => {
               className="my-posts-button mt-5 mx-3"
               onClick={() => {
                 setShowAdditionalButtons(!showAdditionalButtons);
-                console.log('fadeIn ', !fadeIn);
-                console.log('showAdditionalButtons ', !showAdditionalButtons)
               }}
             >
               Mina Top-10 Listor

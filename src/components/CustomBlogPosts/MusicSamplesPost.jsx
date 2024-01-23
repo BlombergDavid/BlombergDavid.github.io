@@ -4,6 +4,7 @@ import "./MusicSamplesPost.css";
 import { Image, Row, Col } from "react-bootstrap";
 import { returnListOfStrings } from "../../functions";
 import VideoPlayer from "../VideoPlayer";
+import { CommentField } from "../CommentField";
 
 const MusicSamplesPost = () => {
   const blogPostJsonFile = require("../../jsonFiles/blogPosts.json");
@@ -342,6 +343,7 @@ const MusicSamplesPost = () => {
         </Col>
       </Row>
       <p className="post-time-of-publishing">{customBlogPosttData.timestamp}</p>
+      <CommentField />
     </div>
   );
 };

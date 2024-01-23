@@ -16,6 +16,8 @@ import WarCraft3Cover from "../images/videogames/wc3.jpg";
 import DivinityOriginalSin2Cover from "../images/videogames/dos2.jpg";
 import { Link } from "react-router-dom";
 import BackButton from "../components/BackButton";
+import { CommentField } from "../components/CommentField";
+
 
 const Top10VideoGames = () => {
   const data = require("../jsonFiles/games.json");
@@ -270,6 +272,7 @@ const Top10VideoGames = () => {
           <Link to="/interests/top-movies">Mina top 10 filmer.</Link>
         </Col>
       </Row>
+      <CommentField/>
       <Row className="py-5 px-5" style={{ maxWidth: "100%" }}>
         <Col>
           <BackButton link="/interests" text="Tillbaka" />

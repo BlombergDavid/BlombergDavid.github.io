@@ -10,34 +10,27 @@ import BlogPost from "./components/BlogPost";
 import BrowsePosts from "./pages/BrowsePosts";
 import NotFound from "./components/NotFound";
 import MyInterests from "./pages/MyInterests";
+import ErrorBoundary from "./ErrorBoundary";
 import { motion, AnimatePresence } from "framer-motion";
 import { db } from "./firebase-config";
 import { collection, getDocs } from "firebase/firestore";
+import { AuthContextProvider } from "./context/AuthContext";
 
 function App() {
   const location = useLocation();
-  const blogPostData = require("./jsonFiles/blogPosts.json");
-  const blogPostArray = blogPostData.value;
-
   const [firebasePosts, setFirebasePosts] = useState([]);
   const postsCollectionRef = collection(db, "posts");
 
   useEffect(() => {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const getPosts = async () => {
       const data = await getDocs(postsCollectionRef);
       setFirebasePosts(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
 
     getPosts();
-      // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  useEffect(() => {
-    if (firebasePosts.length > 0) {
-      console.log(firebasePosts);
-    }
-  }, [firebasePosts]);
 
   const ScrollToTop = () => {
     const { location } = useLocation();
@@ -50,113 +43,115 @@ function App() {
   };
 
   return (
-    <>
-      <ScrollToTop />
-      <AnimatePresence mode="wait">
-        <Routes key={location.pathname} location={location}>
-          <Route
-            path="/"
-            element={
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-              >
-                <StartPage />
-              </motion.div>
-            }
-          />
-          <Route
-            path="/interests"
-            element={
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-              >
-                <MyInterests />
-              </motion.div>
-            }
-          />
-          <Route
-            path="/interests/top-albums"
-            element={
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-              >
-                <Top10Albums />
-              </motion.div>
-            }
-          />
-          <Route
-            path="/interests/top-movies"
-            element={
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-              >
-                <Top10Movies />
-              </motion.div>
-            }
-          />
-          <Route
-            path="/interests/top-games"
-            element={
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-              >
-                <Top10VideoGames />
-              </motion.div>
-            }
-          />
-          <Route
-            path="/interests/top-shows"
-            element={
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-              >
-                <Top10Shows />
-              </motion.div>
-            }
-          />
-          <Route
-            path="/interests/posts"
-            element={
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-              >
-                <BrowsePosts />
-              </motion.div>
-            }
-          />
-          {blogPostArray.map((post, index) => (
+    <ErrorBoundary>
+      <AuthContextProvider>
+        <ScrollToTop />
+        <AnimatePresence mode="wait">
+          <Routes key={location.pathname} location={location}>
             <Route
-              key={index}
-              path={`/interests/posts/${post.postID}`}
+              path="/"
               element={
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                 >
-                  <BlogPost post={post} />
+                  <StartPage />
                 </motion.div>
               }
             />
-          ))}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </AnimatePresence>
-    </>
+            <Route
+              path="/interests"
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                >
+                  <MyInterests />
+                </motion.div>
+              }
+            />
+            <Route
+              path="/interests/top-albums"
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                >
+                  <Top10Albums />
+                </motion.div>
+              }
+            />
+            <Route
+              path="/interests/top-movies"
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                >
+                  <Top10Movies />
+                </motion.div>
+              }
+            />
+            <Route
+              path="/interests/top-games"
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                >
+                  <Top10VideoGames />
+                </motion.div>
+              }
+            />
+            <Route
+              path="/interests/top-shows"
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                >
+                  <Top10Shows />
+                </motion.div>
+              }
+            />
+            <Route
+              path="/interests/posts"
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                >
+                  <BrowsePosts />
+                </motion.div>
+              }
+            />
+            {firebasePosts.map((post, index) => (
+              <Route
+                key={index}
+                path={`/interests/posts/${post.id}`}
+                element={
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                  >
+                    <BlogPost post={post} />
+                  </motion.div>
+                }
+              />
+            ))}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </AnimatePresence>
+      </AuthContextProvider>
+    </ErrorBoundary>
   );
 }
 

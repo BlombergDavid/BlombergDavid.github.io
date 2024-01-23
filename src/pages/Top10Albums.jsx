@@ -16,6 +16,7 @@ import Footer from "../components/Footer";
 import Top10Header from "../components/Top10Header";
 import { Link } from "react-router-dom";
 import BackButton from "../components/BackButton";
+import { CommentField } from "../components/CommentField";
 
 const Top10Albums = () => {
   const data = require("../jsonFiles/albums.json");
@@ -293,6 +294,7 @@ const Top10Albums = () => {
           <Link to="/interests/top-shows">Mina top 10 TV-serier.</Link>
         </Col>
       </Row>
+      <CommentField/>
       <Row className="py-5 px-5" style={{ maxWidth: "100%" }}>
         <Col>
           <BackButton link="/interests" text="Tillbaka" />

@@ -7,16 +7,21 @@ const BlogPostFilter = ({ posts, onFilterChange }) => {
 
   useEffect(() => {
     // Extract unique types from the posts
-    const typesSet = new Set();
-    posts.forEach((post) => {
-      post.type.forEach((type) => typesSet.add(type));
-    });
+    if (posts && posts.length > 0) {
+      const typesSet = new Set();
+      posts.forEach((post) => {
+        // Check if 'type' property exists on the post object
+        if (post && post.type && Array.isArray(post.type)) {
+          post.type.forEach((type) => typesSet.add(type));
+        }
+      });
 
-    // Convert the Set to an array
-    const typesArray = Array.from(typesSet);
+      // Convert the Set to an array
+      const typesArray = Array.from(typesSet);
 
-    // Update state with unique types
-    setUniqueTypes(typesArray);
+      // Update state with unique types
+      setUniqueTypes(typesArray);
+    }
   }, [posts]);
 
   const handleFilterChange = (filterType) => {

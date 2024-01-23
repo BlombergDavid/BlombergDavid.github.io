@@ -16,6 +16,8 @@ import SuperbadCover from "../images/movies/superbad.jpg";
 import FantasticMrFoxCover from "../images/movies/mrfox.jpg";
 import { Link } from "react-router-dom";
 import BackButton from "../components/BackButton";
+import { CommentField } from "../components/CommentField";
+
 
 const Top10Movies = () => {
   const data = require("../jsonFiles/movies.json");
@@ -283,6 +285,7 @@ const Top10Movies = () => {
           <Link to="/interests/top-shows">Mina top 10 TV-serier.</Link>
         </Col>
       </Row>
+      <CommentField/>
       <Row className="py-5 px-5" style={{ maxWidth: "100%" }}>
         <Col>
           <BackButton link="/interests" text="Tillbaka" />
