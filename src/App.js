@@ -10,6 +10,8 @@ import BlogPost from "./components/BlogPost";
 import BrowsePosts from "./pages/BrowsePosts";
 import NotFound from "./components/NotFound";
 import MyInterests from "./pages/MyInterests";
+import MyGames from "./pages/MyGames";
+import MidsommarJeopardy from "./pages/games/MidsommarJeopardy";
 import ErrorBoundary from "./ErrorBoundary";
 import { motion, AnimatePresence } from "framer-motion";
 import { db } from "./firebase-config";
@@ -69,6 +71,18 @@ function App() {
                   exit={{ opacity: 0 }}
                 >
                   <MyInterests />
+                </motion.div>
+              }
+            />
+            <Route
+              path="/games"
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                >
+                  <MyGames />
                 </motion.div>
               }
             />
@@ -147,6 +161,18 @@ function App() {
                 }
               />
             ))}
+             <Route
+             path="/games/midsummer-jeopardy"
+              element={
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                >
+                  <MidsommarJeopardy />
+                </motion.div>
+              }
+            />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AnimatePresence>

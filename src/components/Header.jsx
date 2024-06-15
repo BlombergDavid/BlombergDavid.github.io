@@ -52,6 +52,15 @@ const Header = () => {
               linkTo="interests"
               offset={-100}
             />
+             <ScrollToButton
+              text="Spel & Övrigt"
+              variant="light"
+              offset={-100}
+              isRoutingButton={true}
+              onClick={() => {
+                navigate("/games");
+              }}
+            />
           </ButtonGroup>
         </Navbar.Collapse>
       </Container>
