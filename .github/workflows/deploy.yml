@@ -1,5 +1,4 @@
 # .github/workflows/deploy.yml
-
 name: Deploy
 
 on:
@@ -10,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -26,12 +24,27 @@ jobs:
       - name: Build
         run: npm run build
 
+      # Spara build-mappen som artifact
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: build
+
   deploy:
     runs-on: ubuntu-latest
-
     needs: build
-
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Ladda ner artifact från build-jobbet
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: build
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.2.0
         with:
