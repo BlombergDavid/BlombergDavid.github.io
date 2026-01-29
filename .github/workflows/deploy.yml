@@ -1,14 +1,15 @@
 # .github/workflows/deploy.yml
-name: Deploy
+name: Deploy React App to GitHub Pages
 
 on:
   push:
     branches:
-      - master
+      - master  # Bygg och deploya när du pushar till master
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -22,9 +23,16 @@ jobs:
         run: npm install
 
       - name: Build
+        env:
+          REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
+          REACT_APP_AUTH_DOMAIN: ${{ secrets.REACT_APP_AUTH_DOMAIN }}
+          REACT_APP_PROJECT_ID: ${{ secrets.REACT_APP_PROJECT_ID }}
+          REACT_APP_STORAGE_BUCKET: ${{ secrets.REACT_APP_STORAGE_BUCKET }}
+          REACT_APP_MESSAGING_SENDER_ID: ${{ secrets.REACT_APP_MESSAGING_SENDER_ID }}
+          REACT_APP_APP_ID: ${{ secrets.REACT_APP_APP_ID }}
+          REACT_APP_MEASUREMENT_ID: ${{ secrets.REACT_APP_MEASUREMENT_ID }}
         run: npm run build
 
-      # Spara build-mappen som artifact
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
@@ -34,11 +42,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Ladda ner artifact från build-jobbet
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
@@ -53,10 +61,3 @@ jobs:
           clean: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
-          REACT_APP_AUTH_DOMAIN: ${{ secrets.REACT_APP_AUTH_DOMAIN }}
-          REACT_APP_PROJECT_ID: ${{ secrets.REACT_APP_PROJECT_ID }}
-          REACT_APP_STORAGE_BUCKET: ${{ secrets.REACT_APP_STORAGE_BUCKET }}
-          REACT_APP_MESSAGING_SENDER_ID: ${{ secrets.REACT_APP_MESSAGING_SENDER_ID }}
-          REACT_APP_APP_ID: ${{ secrets.REACT_APP_APP_ID }}
-          REACT_APP_MEASUREMENT_ID: ${{ secrets.REACT_APP_MEASUREMENT_ID }}
