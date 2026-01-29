@@ -49,7 +49,7 @@ const StartPage = () => {
           <p style={{ fontWeight: "500" }}>
             Fullstackutvecklare med frontendbakgrund och idag tydligt
             backendfokus i Java-baserade system. Arbetar med
-            systemintegrationer, databaser och kunddriven produktutveckling –
+            systemintegrationer, databaser och kunddriven produktutveckling och är 
             van att ta ägarskap för funktioner från krav till driftsättning.
           </p>
 
@@ -57,7 +57,7 @@ const StartPage = () => {
             Jag heter David Blomberg och den här sidan är lite av en kombination
             mellan CV och personlig hörna på internet. Här finns min
             yrkesbakgrund, tekniska erfarenheter och även mindre livsviktig
-            information som topplistor inom musik, film och spel. Kika runt –
+            information som topplistor inom musik, film och spel. Kika runt, 
             och tycker du någon lista är helt fel, hör av dig!
           </p>
         </div>
@@ -80,7 +80,7 @@ const StartPage = () => {
                 att idag luta mer åt backend, systemintegrationer och att ta
                 ansvar för funktioner genom hela utvecklingskedjan. Jag gillar
                 när teknik löser riktiga problem och när man som utvecklare får
-                äga hela lösningar – inte bara små delar.
+                äga hela lösningar, inte bara små delar.
               </p>
 
               <p>
@@ -161,7 +161,7 @@ const StartPage = () => {
               <strong>Eseco</strong>
               <ul>
                 <li>Arbetsroll: Fullstackutvecklare</li>
-                <li>År: Mars 2024 – Nu</li>
+                <li>År: Mars 2024 - Nu</li>
                 <li>
                   Viktigaste erfarenhet: Kunddriven produktutveckling med ansvar
                   för funktioner i både frontend och backend. Arbetar med
@@ -173,7 +173,7 @@ const StartPage = () => {
               <strong>HiQ</strong>
               <ul>
                 <li>Arbetsroll: Frontendutvecklare</li>
-                <li>År: 2022 – 2023</li>
+                <li>År: 2022 - 2023</li>
                 <li>
                   Viktigaste erfarenhet: Utvecklade interna webbplattformar och
                   system som stöttade organisationens kommunikation och
@@ -185,7 +185,7 @@ const StartPage = () => {
               <strong>Tata Consultancy Services</strong>
               <ul>
                 <li>Arbetsroll: Utvecklare</li>
-                <li>År: 2021 – 2022</li>
+                <li>År: 2021 - 2022</li>
                 <li>
                   Viktigaste erfarenhet: Arbetade i internationellt och
                   distribuerat team i uppdrag för IKEA. Erfarenhet av samarbete
@@ -248,7 +248,7 @@ const StartPage = () => {
           <h1 className="mb-5">Intressen</h1>
           <p>
             Jag tycker att en persons smak i musik, film och spel säger en hel
-            del. Här delar jag några av mina topplistor – kanske hittar du något
+            del. Här delar jag några av mina topplistor - kanske hittar du något
             nytt?
           </p>
           <Row>
