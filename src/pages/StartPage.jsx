@@ -152,7 +152,7 @@ const StartPage = () => {
               <p>
                 Här är en kort sammanfattning av mina viktigaste erfarenheter.
                 Vill du se hela CV:t finns det{" "}
-                <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1m5hGovZ_mRdKgKcrnLxA2Pip0dnVej4P/view">
+                <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/15oW5E-Rzs1FhIli2vfltsRzJBlzIkTdi/view?usp=sharing">
                   här
                 </a>
                 .
